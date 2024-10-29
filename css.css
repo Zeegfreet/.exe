@@ -22,6 +22,7 @@ body input{
 .container{
     margin: 0 auto;
     width: 800px;
+    max-width: 100%;
     padding-top: 3em;
     display: flex;
     flex-direction: column;
@@ -50,6 +51,7 @@ body input{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
+    max-width: 100%;
 }
 
 .card{
