@@ -10,17 +10,57 @@
 <body>
     <main class="container">
         <div class="fields">
-            <label 
-                for="ledsQuantity"
+            <div
+                class="inputContainer"
             >
-                QUANTIDADE DE LEDS
-            </label>
-            <input 
-                type="number" 
-                name="ledsQuantity"
-                class="inputLeds"
-                value="0"
-            />
+
+                <label 
+                    for="ledsQuantity"
+                >
+                    Total de LEDS
+                </label>
+                <input 
+                    type="number" 
+                    name="ledsQuantity"
+                    class="inputLeds"
+                    value="0"
+                    min="0"
+            
+                />
+            </div>
+            <div
+                class="inputContainer"
+            >
+                <label 
+                    for="ledsPotency"
+                >
+                    Potência em WATTS
+                </label>
+                <input 
+                    type="number" 
+                    name="ledsPotency"
+                    class="inputLeds"
+                    value="1.7"
+                    min="0"
+                />
+            </div>
+
+            <div
+                class="inputContainer"
+            >
+                <label 
+                    for="ledsPotency"
+                >
+                    Tensão da Fonte em Volts
+                </label>
+                <input 
+                    type="number" 
+                    name="fontTension"
+                    class="inputLeds"
+                    value="12"
+                    min="0"
+                />
+            </div>
         </div>
 
         <div class="cardsContainer">
@@ -28,11 +68,11 @@
                 <div
                     class="cardTitle"
                 >
-                    Multiplicado por 1.7
+                    Consumo Total em WATTS
                 </div>
                 <div
                     class="cardBody"
-                    id="resultMultiplicado"
+                    id="totalPotency"
                 >
                     0
                 </div>
@@ -42,7 +82,7 @@
                 <div
                     class="cardTitle"
                 >
-                    Dividido por 2
+                    Potencia da Fonte
                 </div>
                 <div
                     class="cardBody"

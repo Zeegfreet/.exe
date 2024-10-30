@@ -16,6 +16,7 @@ body input{
     border-color: var(--color-secondary-main);
     background-color: var(--color-primary-light);
     color: var(--color-secondary-main);
+    border-radius: 0.4em;
     
 }
 
@@ -33,7 +34,13 @@ body input{
 
 .fields{
     display: flex;
+    gap: 1em;
+}
+
+.inputContainer{
+    display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .inputLeds{
