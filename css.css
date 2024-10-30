@@ -34,6 +34,7 @@ body input{
 
 .fields{
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
