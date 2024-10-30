@@ -32,7 +32,7 @@ function onChangeFields(){
 
 
 function onRefreshCalcs(quantity, potency, fontVoltage){
-    console.log(fontVoltage)
+
     const totalPotency = quantity * potency
     const resultDividido = totalPotency / fontVoltage
     const resultMultiplicado50 = resultDividido * 1.5
